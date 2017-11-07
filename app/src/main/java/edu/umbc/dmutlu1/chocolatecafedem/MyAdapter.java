@@ -26,7 +26,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
         public ViewHolder(View v) {
             super(v);
-
             this.name = itemView.findViewById(R.id.textViewName);
             this.title = itemView.findViewById(R.id.textViewTitle);
             this.imageViewIcon = itemView.findViewById(R.id.imageView);
@@ -62,7 +61,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         holder.title.setText(dataSet.get(position).getTitle());
         holder.imageViewIcon.setImageResource(dataSet.get(position).getImage());
 
-        holder.mFAB.setOnClickListener(view -> handler.openLink(R.string.dessert_URL));
+        holder.mFAB.setOnClickListener(view -> handler.openLink(dataSet.get(position).getURL()));
     }
 
     // Return the size of your dataset (invoked by the layout manager)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="URLs">
+        <item>https://sweetcascadeschocolatier.com/products/all-jacked-up</item>
+        <item>https://sweetcascadeschocolatier.com/products/blood-orange-truffle</item>
+        <item>https://sweetcascadeschocolatier.com/products/bourbon-truffle</item>
+        <item>https://sweetcascadeschocolatier.com/products/dark-belgian-truffle</item>
+    </string-array>
+</resources>
