@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements LinkHandler
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
     private ImageView infoButton;
-    private static ArrayList<Bike> data;
+    private static ArrayList<Dessert> data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -35,10 +35,11 @@ public class MainActivity extends AppCompatActivity implements LinkHandler
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         data = new ArrayList<>();
-        for (int i = 0; i < BikeData.bikes.length; i++) {
-            data.add(new Bike(
-                    BikeData.bikes[i],
-                    BikeData.drawableArray[i]
+        for (int i = 0; i < DessertData.desserts.length; i++) {
+            data.add(new Dessert(
+                    DessertData.desserts[i],
+                    DessertData.specials[i],
+                    DessertData.drawableArray[i]
             ));
         }
 
