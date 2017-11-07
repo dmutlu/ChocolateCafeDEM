@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Chocolate Cafe DEM</string>
+    <string name="content_description">Chocolate Desserts</string>
+    <string name="dessert_URL">https://sweetcascadeschocolatier.com/collections/all</string>
+    <string name="homepage_URL">https://sweetcascadeschocolatier.com/</string>
 </resources>
